@@ -1,0 +1,39 @@
+.month-year {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-left: 34px;
+  font-size: 30px;
+  width: 22.1rem;
+  background: black;
+  letter-spacing: 16px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.grid-container {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (60px)[7];
+      grid-template-columns: repeat(7, 60px);
+  -ms-grid-rows: (50px)[6];
+      grid-template-rows: repeat(6, 50px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-container div {
+  border-right: 1px solid #000;
+  text-align: center;
+}
+
+.grid-container .bg-gray {
+  background: #808080;
+}
+
+.grid-container .days {
+  padding-top: 15px;
+}

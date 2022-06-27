@@ -1,0 +1,33 @@
+.month-year {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-left: 34px;
+  font-size: 30px;
+  width: 22.1rem;
+  background: black;
+  letter-spacing: 16px;
+  transform: scale(1.2);
+}
+
+.grid-container {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-template-rows: repeat(6, 50px);
+  justify-content: center;
+
+  div {
+    border-right: 1px solid #000;
+    text-align: center;
+  }
+
+  .bg-gray {
+    background: #808080;
+  }
+
+  .days {
+    padding-top: 15px;
+  }
+}
